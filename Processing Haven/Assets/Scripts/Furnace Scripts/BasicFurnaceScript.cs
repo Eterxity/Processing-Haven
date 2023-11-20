@@ -5,21 +5,16 @@ using UnityEngine;
 public class BasicFurnaceScript : MonoBehaviour
 {
 
-    public gameObject _self;
+    public int _multiplier;
 
-    // Start is called before the first frame update
-    void Start()
+    void OnCollisionEnter(Collision collision)
     {
-        
+        var _ore = collision.gameObject;
+        var _oreScript = _ore.GetComponent<OreScript>();
+        GlobalVars._money += Mathf.RoundToInt(_oreScript.value * _multiplier);
+        Destroy(_ore);
+
+        Debug.Log(GlobalVars._money);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    void OnCollisionEnter(Collision collision){
-        debug.Log("OnCollisionEnter");
-    }
 }
