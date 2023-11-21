@@ -1,0 +1,408 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.13f1 (5f90a5ebde0f) revision 6262949'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 15603 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/mikey/Downloads/Unity Projects/Processing-Haven/Processing Haven
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+53127
+Successfully changed project path to: C:/Users/mikey/Downloads/Unity Projects/Processing-Haven/Processing Haven
+C:/Users/mikey/Downloads/Unity Projects/Processing-Haven/Processing Haven
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [52800] Host "[IP] 192.168.1.51 [Port] 0 [Flags] 2 [Guid] 4074343196 [EditorId] 4074343196 [Version] 1048832 [Id] WindowsEditor(7,MykullsLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [52800] Host "[IP] 192.168.1.51 [Port] 0 [Flags] 2 [Guid] 4074343196 [EditorId] 4074343196 [Version] 1048832 [Id] WindowsEditor(7,MykullsLaptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 16.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mikey/Downloads/Unity Projects/Processing-Haven/Processing Haven/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25e0)
+    Vendor:   NVIDIA
+    VRAM:     3976 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.013515 seconds.
+- Loaded All Assemblies, in  0.488 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 375 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.725 seconds
+Domain Reload Profiling: 1209ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (255ms)
+		LoadAssemblies (111ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (248ms)
+				TypeCache.ScanAssembly (231ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (726ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (663ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (515ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (94ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.928 seconds
+Refreshing native plugins compatible for Editor in 4.46 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.008 seconds
+Domain Reload Profiling: 1932ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (641ms)
+		LoadAssemblies (489ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (262ms)
+			TypeCache.Refresh (238ms)
+				TypeCache.ScanAssembly (216ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1008ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (817ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (679ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 5.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (56.7 KB). Loaded Objects now: 3551.
+Memory consumption went from 127.7 MB to 127.7 MB.
+Total: 18.302000 ms (FindLiveObjects: 0.472000 ms CreateObjectMapping: 0.169700 ms MarkObjects: 17.506900 ms  DeleteObjects: 0.151300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1118234.991961 seconds.
+  path: Assets/Models/Raw Conveyors/ConveyorMat.mat
+  artifactKey: Guid(59118ef3cc56dfd448a7b3e723e39064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/ConveyorMat.mat using Guid(59118ef3cc56dfd448a7b3e723e39064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642541ad80179b87fa999932e98c8eb3') in 0.091782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.793519 seconds.
+  path: Assets/Models/Raw Conveyors/ConveyorMat.mat
+  artifactKey: Guid(59118ef3cc56dfd448a7b3e723e39064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/ConveyorMat.mat using Guid(59118ef3cc56dfd448a7b3e723e39064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf7c950cfd20a3185880f9b50ba7c7c') in 0.008028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 32.472035 seconds.
+  path: Assets/Models/Raw Conveyors/ConveyorMat.mat
+  artifactKey: Guid(59118ef3cc56dfd448a7b3e723e39064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/ConveyorMat.mat using Guid(59118ef3cc56dfd448a7b3e723e39064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e85473d982df7ef06755d0a414c8575') in 0.011144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 71.034694 seconds.
+  path: Assets/Models/Raw Conveyors/conveyor-bars-stripe-fence.fbx
+  artifactKey: Guid(a5b140e317147b548b78cf789929152e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/conveyor-bars-stripe-fence.fbx using Guid(a5b140e317147b548b78cf789929152e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298dbb4ea1e877d821d0cd5fe778a558') in 0.132336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Raw Conveyors/door-wide-open.fbx
+  artifactKey: Guid(48439250d9901514fb30d7b08292f7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/door-wide-open.fbx using Guid(48439250d9901514fb30d7b08292f7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07544faed326813d4bea775b3c6a61e8') in 0.039493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Models/Raw Conveyors/box-wide.fbx
+  artifactKey: Guid(864e146b7c821bd469c24cac71151c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/box-wide.fbx using Guid(864e146b7c821bd469c24cac71151c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72171e15a9d9897778c2c185ecbeb4c0') in 0.034250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Models/Raw Conveyors/conveyor-long-stripe-sides.fbx
+  artifactKey: Guid(75a34bd9906def648a61d2ea08908379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/conveyor-long-stripe-sides.fbx using Guid(75a34bd9906def648a61d2ea08908379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afb59ce507db8f2bb88489f79470191') in 0.053213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Models/Raw Conveyors/box-large.fbx
+  artifactKey: Guid(20d1b215282fe5242a96943cd4d17490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/box-large.fbx using Guid(20d1b215282fe5242a96943cd4d17490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbee564d2b44b206ea34868d0a41453') in 0.018311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Models/Raw Conveyors/arrow-basic.fbx
+  artifactKey: Guid(af82bfc288286f142bd1b8c010f67c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/arrow-basic.fbx using Guid(af82bfc288286f142bd1b8c010f67c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7024745f8eb5807797efec3f493e8e') in 0.016506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Models/Raw Conveyors/cover-corner.fbx
+  artifactKey: Guid(5d53d23a7fbc58d4f82f502aef41d163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/cover-corner.fbx using Guid(5d53d23a7fbc58d4f82f502aef41d163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49db8408b2898abb5b96a41df4c8b6c6') in 0.016887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Models/Raw Conveyors/conveyor-bars-high.fbx
+  artifactKey: Guid(8bf39bb26fe15b545bc6c0c18c4f19fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/conveyor-bars-high.fbx using Guid(8bf39bb26fe15b545bc6c0c18c4f19fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e1b71dc4f4d4b2c95822c8b6aa9e0c') in 0.032694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Models/Raw Conveyors/cover-hopper.fbx
+  artifactKey: Guid(982fdd5b3558ba6479af79261f69f228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/cover-hopper.fbx using Guid(982fdd5b3558ba6479af79261f69f228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8704806aacc93dedc8910ead5d0af80') in 0.021995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Models/Raw Conveyors/conveyor-bars.fbx
+  artifactKey: Guid(fc541d184e3bbb349b4f889ba271d97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/conveyor-bars.fbx using Guid(fc541d184e3bbb349b4f889ba271d97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de95be41f26fcc6f7be58d7093b1c710') in 0.017053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Models/Raw Conveyors/conveyor-long-stripe.fbx
+  artifactKey: Guid(65060ab86134c594eb16542c2b560273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/conveyor-long-stripe.fbx using Guid(65060ab86134c594eb16542c2b560273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a463012905ae249f488c20c86c522c22') in 0.022394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Models/Raw Conveyors/conveyor-bars-stripe-high.fbx
+  artifactKey: Guid(caa97b55e3fedd649937fb0eaf21555d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/conveyor-bars-stripe-high.fbx using Guid(caa97b55e3fedd649937fb0eaf21555d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517809867584a3c77182c1bd8026f444') in 0.033866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Models/Raw Conveyors/conveyor-stripe.fbx
+  artifactKey: Guid(7870f8cdf2d05ae4eaa12c4b648ce611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/conveyor-stripe.fbx using Guid(7870f8cdf2d05ae4eaa12c4b648ce611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadb52d69787925d9351ecd64bc6bca0') in 0.018663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000781 seconds.
+  path: Assets/Models/Raw Conveyors/cover-top.fbx
+  artifactKey: Guid(9a8efe4f951ad13479ed89103ae8af6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/cover-top.fbx using Guid(9a8efe4f951ad13479ed89103ae8af6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7192ce693959ef131bbabb3b7120c6') in 0.020505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Models/Raw Conveyors/box-long.fbx
+  artifactKey: Guid(d79aea2b3a50a2f49b7c9c7587b3d35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/box-long.fbx using Guid(d79aea2b3a50a2f49b7c9c7587b3d35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db0b7cd70c2f88b618843d624b25770f') in 0.019041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Models/Raw Conveyors/cover-window.fbx
+  artifactKey: Guid(4615849ac0d344e488ffd89579b1be7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/cover-window.fbx using Guid(4615849ac0d344e488ffd89579b1be7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230955d11b70506c9b97176794d2d827') in 0.021967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Models/Raw Conveyors/conveyor-bars-stripe-side.fbx
+  artifactKey: Guid(759efb33a73c4864ba0ea5be29aa9b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/conveyor-bars-stripe-side.fbx using Guid(759efb33a73c4864ba0ea5be29aa9b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3e42678a6c300bcd4c274f4cfccbb8') in 0.035868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Models/Raw Conveyors/conveyor-long.fbx
+  artifactKey: Guid(09c16cd3c55a45241be7909f478e3bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/conveyor-long.fbx using Guid(09c16cd3c55a45241be7909f478e3bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffebf3cd9d2b7d90b62c17d49a56091') in 0.017212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Models/Raw Conveyors/door-wide-closed.fbx
+  artifactKey: Guid(8a27aa40925b4b845bf4d702d0b6fe61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/door-wide-closed.fbx using Guid(8a27aa40925b4b845bf4d702d0b6fe61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6641aa48d85ac288dfc3b4ad186e5d7') in 0.021135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Models/Raw Conveyors/door.fbx
+  artifactKey: Guid(eeb907363c398f943808ece3b6717cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/door.fbx using Guid(eeb907363c398f943808ece3b6717cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac1387979b30eac52620073dc277d6f') in 0.023470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Models/Raw Conveyors/conveyor-bars-sides.fbx
+  artifactKey: Guid(4f5a75cbe46ca0940bc575c1c57b2d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Raw Conveyors/conveyor-bars-sides.fbx using Guid(4f5a75cbe46ca0940bc575c1c57b2d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407f9972daa35d9714311a5dfd96dbd3') in 0.034752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

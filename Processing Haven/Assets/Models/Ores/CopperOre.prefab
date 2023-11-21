@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8377447843601917475}
   m_Layer: 0
   m_Name: CopperOre
-  m_TagString: Untagged
+  m_TagString: Ore
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -148,4 +148,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 7
   type: 0
-  material: 0
+  material: 1
